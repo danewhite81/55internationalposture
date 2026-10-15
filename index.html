@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Currency | International Seminar Posture, Class 56</title>
+<meta name="description" content="Class 56 international seminar posture: Currency. Pay attention to your attention.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231f4d3a'/%3E%3Ccircle cx='32' cy='32' r='25' fill='none' stroke='%23d9b66a' stroke-width='2.5'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='36' font-weight='700' text-anchor='middle' fill='%23d9b66a'%3E%24%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f6f1e6; --paper2:#efe8d8; --ink:#1d2a24; --muted:#5d6a63;
+  --green:#1f4d3a; --green2:#163a2b; --brass:#b88a2e; --brass2:#d9b66a;
+  --line:#ddd3bd; --card:#fffdf7;
+  --serif:"Fraunces",Georgia,"Times New Roman",serif;
+  --sans:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root{--paper:#121a16;--paper2:#18221d;--ink:#ece6d6;--muted:#a3ada5;--line:#2c3a33;--card:#1a2520;--green:#d9b66a;--brass:#d9b66a}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.7 var(--sans);-webkit-font-smoothing:antialiased}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+a{color:var(--green);text-underline-offset:3px}
+h1,h2,h3{font-family:var(--serif);line-height:1.15;margin:0}
+p{margin:0 0 1em}
+
+/* hero */
+.hero{background:var(--green2);color:#f4ecd8;position:relative;overflow:hidden;padding:64px 0 72px;text-align:center}
+.hero::before{content:"";position:absolute;inset:0;opacity:.18;background:
+  repeating-radial-gradient(circle at 20% 120%,transparent 0 14px,rgba(217,182,106,.55) 15px 16px),
+  repeating-radial-gradient(circle at 85% -20%,transparent 0 14px,rgba(217,182,106,.55) 15px 16px)}
+.hero .wrap{position:relative}
+.seal{width:112px;height:112px;margin:0 auto 22px;border-radius:50%;border:2px solid var(--brass2);display:grid;place-items:center;
+  box-shadow:0 0 0 7px rgba(217,182,106,.14),inset 0 0 0 6px rgba(217,182,106,.14);font:700 64px/1 var(--serif);color:var(--brass2)}
+.eyebrow{font:600 .78rem/1.4 var(--sans);letter-spacing:.18em;text-transform:uppercase;color:var(--brass2);margin-bottom:10px}
+.hero h1{font-size:clamp(3rem,12vw,5.6rem);font-weight:700;letter-spacing:-.02em}
+.hero .tag{font:italic 400 1.35rem/1.4 var(--serif);color:#e6dcc0;max-width:30em;margin:14px auto 0}
+.hero .qs{margin:34px auto 0;max-width:30em;text-align:left;font:400 1.2rem/1.5 var(--serif)}
+.hero .qs p{margin:0 0 .8em;padding-left:1.1em;border-left:2px solid var(--brass2)}
+
+/* sections */
+section{padding:54px 0 6px}
+.num{font:600 .78rem var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--brass)}
+h2{font-size:clamp(1.8rem,5vw,2.4rem);margin:6px 0 16px}
+h3{font-size:1.25rem;margin:1.8em 0 .4em}
+.muted{color:var(--muted);font-size:.95rem}
+.prompt{font:600 1.08rem/1.5 var(--serif);margin:1.4em 0 .3em;padding-left:14px;border-left:3px solid var(--brass)}
+.prompt+.muted{margin:-.1em 0 1em 17px}
+
+/* two currencies */
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:24px 0}
+.pair>div{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px}
+.pair h3{margin:0 0 8px;font-size:1.05rem;color:var(--green)}
+.pair ul{margin:0;padding-left:1.1em;font-size:.97rem;line-height:1.6}
+.pair.rowlike .head{font:600 .72rem var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--brass);margin-bottom:6px}
+@media(max-width:600px){.pair{grid-template-columns:1fr}}
+
+/* stats */
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:22px 0}
+.stat{background:var(--green2);color:#f4ecd8;border-radius:14px;padding:22px 20px;position:relative;overflow:hidden}
+.stat b{display:block;font:700 clamp(2rem,7vw,2.8rem)/1.05 var(--serif);color:var(--brass2);margin-bottom:8px}
+.stat span{font-size:.95rem;line-height:1.5;display:block}
+.stat small{display:block;margin-top:8px;font-size:.78rem;color:#b9c4b9}
+@media(max-width:600px){.stats{grid-template-columns:1fr}}
+.callout{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:18px 0;margin:26px 0;font:italic 400 1.3rem/1.5 var(--serif);text-align:center}
+
+/* four Ts */
+.ts{display:grid;gap:12px;margin:22px 0;padding:0;list-style:none;counter-reset:t}
+.ts li{display:grid;grid-template-columns:54px 1fr;gap:14px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;align-items:start}
+.ts .l{font:700 2.4rem/1 var(--serif);color:var(--brass);text-align:center}
+.ts b{font:700 1.15rem var(--serif);display:block}
+.ts span{font-size:.97rem;display:block;line-height:1.55}
+
+/* steps */
+.steps{display:grid;gap:12px;margin:20px 0}
+.step{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px}
+.step b{font-family:var(--serif);font-size:1.1rem;color:var(--green)}
+.step p{margin:.2em 0 0;font-size:.97rem}
+
+/* video */
+.video{position:relative;padding-top:56.25%;margin:18px 0 8px;background:#000;border-radius:14px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.18)}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+
+/* quotes */
+.quotes{display:grid;gap:14px;margin:20px 0}
+.q{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px 16px;position:relative}
+.q::before{content:"\201C";position:absolute;top:-4px;left:14px;font:700 4rem/1 var(--serif);color:var(--brass2);opacity:.7}
+.q p{font:italic 400 1.2rem/1.5 var(--serif);margin:14px 0 8px}
+.q cite{font:normal 500 .85rem var(--sans);color:var(--muted)}
+
+/* sample */
+.sample{background:var(--paper2);border:1px dashed var(--brass);border-radius:14px;padding:6px 20px;font-size:.96rem}
+.sample p{margin:.9em 0}
+.sample .k{display:block;font:700 .72rem var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--brass)}
+ul.plain{padding-left:1.1em}
+ul.plain li{margin:.4em 0}
+
+/* reading */
+.read{display:grid;gap:12px;margin:18px 0}
+.read a.card{display:block;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;text-decoration:none;color:var(--ink)}
+.read a.card:hover{border-color:var(--brass)}
+.read .t{font:700 1.05rem var(--serif);color:var(--green);display:block}
+.read .s{font-size:.9rem;color:var(--muted);display:block;margin-top:2px}
+
+/* closing */
+.close{background:var(--green2);color:#f4ecd8;margin-top:64px;padding:64px 0 72px;text-align:center}
+.close h2{color:#f4ecd8}
+.close p{max-width:32em;margin-left:auto;margin-right:auto}
+.close blockquote{margin:38px auto 8px;max-width:26em;padding:0}
+.close blockquote p{font:italic 400 clamp(1.5rem,5vw,2rem)/1.35 var(--serif);color:var(--brass2);margin:0 0 12px}
+.close blockquote footer{font-size:.88rem;color:#b9c4b9}
+.close .ponder{margin-top:26px;color:#cfd8cf}
+.close .final{font:700 clamp(1.5rem,5vw,2rem)/1.3 var(--serif);margin-top:34px;padding-top:30px;border-top:1px solid rgba(217,182,106,.4)}
+.sources{font-size:.8rem;color:var(--muted);padding:40px 0 60px}
+.sources li{margin:.3em 0}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="seal" aria-hidden="true">$</div>
+    <div class="eyebrow">Class 56 &middot; International Seminar Posture</div>
+    <h1>Currency</h1>
+    <p class="tag">Pay attention to your attention.</p>
+    <div class="qs">
+      <p>How many exchange rates will you check on this trip?</p>
+      <p>How many times will you ask what something costs, and then decide if it is worth it?</p>
+      <p>When did you last ask the same questions about the thing you spend all day, every day?</p>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+<section>
+  <div class="num">The posture</div>
+  <h2>Two currencies, one of them unwatched</h2>
+  <p>On this trip you will handle the Turkish lira, the Egyptian pound and the Moroccan dirham. You will learn what each is worth against the others. You will divide your money across days, invest it in meals and moments, and hope it pays off. You will notice, right away, if someone shortchanges you.</p>
+  <p>You carry a second currency that you spend far more often, and almost never look at.</p>
+
+  <div class="pair">
+    <div>
+      <div class="head" style="font:600 .72rem var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--brass);margin-bottom:6px">Money</div>
+      <h3>Concrete, so we watch it</h3>
+      <ul><li>We set a budget</li><li>We divide it across days</li><li>We compare rates</li><li>We invest it and hope for a return</li><li>We notice when it is wasted or taken</li></ul>
+    </div>
+    <div>
+      <div class="head" style="font:600 .72rem var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--brass);margin-bottom:6px">Attention</div>
+      <h3>Abstract, so we lose track</h3>
+      <ul><li>We praise it and rarely plan it</li><li>It divides itself all day</li><li>We seldom ask what it buys</li><li>We invest it by habit and hope</li><li>We rarely notice what it cost</li></ul>
+    </div>
+  </div>
+
+  <p>Attention is the more fundamental of the two. It is finite, you get a fresh supply each morning, and whatever you spend it on becomes your experience. Many of the other postures we practice depend on it: curiosity, spectral thinking, being a thermostat instead of a thermometer. Each one is a decision about where to put your attention.</p>
+  <p><strong>So the posture for this seminar is Currency.</strong> Notice where yours goes, why it goes there, and what it buys.</p>
+</section>
+
+<section>
+  <div class="num">Why it matters</div>
+  <h2>Someone else is already counting</h2>
+  <p>Money is not the only reason to pay attention to attention. Your attention is also somebody else's revenue. Consider what the numbers say.</p>
+  <div class="stats">
+    <div class="stat"><b>6 h 38 min</b><span>Online each day for the average adult internet user, including 2 hours 21 minutes on social media.</span><small>GWI, in DataReportal / We Are Social, Digital 2025</small></div>
+    <div class="stat"><b>47 seconds</b><span>How long people stay on a single screen before switching, and recovering from an interruption can take almost half an hour.</span><small>Gloria Mark, UC Irvine, studies from 2016 to 2020</small></div>
+    <div class="stat"><b>$82.3 billion</b><span>Google's advertising revenue in the fourth quarter of 2025 alone. That is roughly $890 million for every day of the quarter.</span><small>Alphabet Q4 2025 earnings release (daily figure is our arithmetic)</small></div>
+    <div class="stat"><b>$201 billion</b><span>Meta's total revenue in 2025. Meta's annual report says it generates substantially all of its revenue from advertising.</span><small>Meta Form 10-K and Q4 2025 results</small></div>
+  </div>
+  <p>Advertising is sold by the minute of your attention, and the most valuable products on earth are built to collect it. The economist Herbert Simon saw this coming in 1971: "a wealth of information creates a poverty of attention."</p>
+  <div class="callout">If your attention were a paycheck, would you hand it over without looking at who was collecting?</div>
+  <p>That is not a reason to feel guilty, or to throw away your phone. It is a reason to spend your attention on purpose, at least some of the time. A trip like this is a rare chance to practice.</p>
+</section>
+
+<section>
+  <div class="num">A way to remember</div>
+  <h2>The four T's</h2>
+  <p>A ledger needs only a few columns. Here are four, each starting with the same letter, so you can carry them in your head. They are also the questions you will ask yourself at night.</p>
+  <ol class="ts">
+    <li><div class="l">T</div><div><b>Track</b><span>Where did my attention go today? Name it, without judging it.</span></div></li>
+    <li><div class="l">T</div><div><b>Trace</b><span>Why did it go there? Did I choose it, or did something pull it? Who gained from where it went?</span></div></li>
+    <li><div class="l">T</div><div><b>Trade</b><span>What did I trade away? What might I have missed because of where it went? A guess is a good answer.</span></div></li>
+    <li><div class="l">T</div><div><b>Treasure</b><span>What is one moment I want to keep, and why did it matter?</span></div></li>
+  </ol>
+  <p class="muted">Track, Trace, Trade, Treasure. If you remember nothing else from this page, remember those four words.</p>
+</section>
+
+<section>
+  <div class="num">What it buys</div>
+  <h2>Trade expectations for presence</h2>
+  <p>Most of us arrive somewhere having already spent our attention. We pay in advance for the place we imagined: the photographs, the stories, the way we think a bazaar, a mosque or a medina should look. Then we spend the trip checking what is in front of us against what we paid for.</p>
+  <p>Expectations are a kind of prepaid purchase. They make us look for what we expect, and they make us pass over what we did not budget for. Presence is the other trade. You give your attention to what is actually here, even when it is plainer, stranger, noisier or more ordinary than you thought it should be.</p>
+  <div class="callout">What you came to see matters less than what is actually there.</div>
+  <p>You do not have to give up your expectations. You only have to notice when they are doing your looking for you.</p>
+  <h3>Attention as a tool, and attention for its own sake</h3>
+  <p>There is a quieter version of the same trap. Much of the attention we spend on a trip is used to maneuver: to keep to the schedule, to get the photograph, to find the right place, to say the right thing, to meet what is expected of a thoughtful traveler. That attention is useful, and you will need it. But it is spent only on getting through, and it asks one question of everything it meets: what do I do with this?</p>
+  <p>Attention for its own sake asks nothing in return. It is simply being with what is in front of you, with no photograph to take, no lesson to extract and no impression to make. Not every expenditure has to pay off. Some of the best are given freely.</p>
+  <div class="callout">Attention that is only a means to something else will miss most of what it passes.</div>
+  <p class="prompt">What did I expect to find here, and what is actually here?</p>
+  <p class="prompt">Where am I attending to what should be, rather than what is?</p>
+  <p class="prompt">When today did I use my attention only to manage the day, and when did I simply attend, for no reason at all?</p>
+</section>
+
+<section>
+  <div class="num">How this works</div>
+  <h2>Light on purpose</h2>
+  <p>There is no seminar room on this trip, so this page travels with you. Nothing here is a form. Write in a notebook or notes app of your own, for a few minutes a night, and nothing more.</p>
+  <div class="steps">
+    <div class="step"><b>Before we land in Istanbul</b><p>Read the ideas on this page and think through three short prompts.</p></div>
+    <div class="step"><b>While we travel</b><p>A few minutes most evenings with the four T's. What you write each night becomes the record of where your attention went.</p></div>
+    <div class="step"><b>At our mid-trip synthesis in Egypt</b><p>Your journal sets the stage. You will arrive in Egypt with days of evidence about your own attention, and you will read yourself back.</p></div>
+  </div>
+</section>
+
+<section>
+  <div class="num">A talk to watch</div>
+  <h2>Where is your mind right now?</h2>
+  <p>Matt Killingsworth, <em>Want to be happier? Stay in the moment</em> (TED, 9 minutes 55 seconds). It shows with data how often a mind is somewhere other than where the body is, and what that costs.</p>
+  <div class="video"><iframe src="https://embed.ted.com/talks/matt_killingsworth_want_to_be_happier_stay_in_the_moment" title="Matt Killingsworth, TED" allow="encrypted-media; fullscreen; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+  <p class="muted">Talk not loading? <a href="https://www.ted.com/talks/matt_killingsworth_want_to_be_happier_stay_in_the_moment" target="_blank" rel="noopener">Open it on TED</a>.</p>
+  <p class="prompt">How often do you think your mind is where your body is?</p>
+</section>
+
+<section>
+  <div class="num">Lines to sit with</div>
+  <h2>Five voices on attention</h2>
+  <div class="quotes">
+    <div class="q"><p>Attention is the rarest and purest form of generosity.</p><cite>Simone Weil, letter to Joë Bousquet, 13 April 1942</cite></div>
+    <div class="q"><p>Attention is the beginning of devotion.</p><cite>Mary Oliver, <em>Upstream</em> (2016)</cite></div>
+    <div class="q"><p>My experience is what I agree to attend to.</p><cite>William James, <em>The Principles of Psychology</em> (1890)</cite></div>
+    <div class="q"><p>How we spend our days is, of course, how we spend our lives.</p><cite>Annie Dillard, <em>The Writing Life</em> (1989)</cite></div>
+    <div class="q"><p>A wealth of information creates a poverty of attention.</p><cite>Herbert Simon, "Designing Organizations for an Information-Rich World" (1971)</cite></div>
+  </div>
+  <p class="prompt">Choose the one that means the most to you. Why that one?</p>
+</section>
+
+<section>
+  <div class="num">Before we land in Istanbul</div>
+  <h2>Three short prompts</h2>
+  <p>Write a few sentences on each in your own journal, before we land in Istanbul.</p>
+  <p class="prompt">What do I already think I know about Türkiye, Egypt and Morocco, and where did those ideas come from?</p>
+  <p class="muted">Those ideas are filters. Your attention will use them without asking you.</p>
+  <p class="prompt">What am I most eager to dig into on this trip?</p>
+  <p class="muted">Hold it loosely. Then notice what the place offers instead.</p>
+  <p class="prompt">Where do I expect my attention to go, and what do I think it might skip?</p>
+</section>
+
+<section>
+  <div class="num">While we travel</div>
+  <h2>A few minutes a night</h2>
+  <p>Most evenings, write in your own journal. Use the four T's each night so patterns can show up over time. A line or two each is plenty. Skip a night without guilt.</p>
+  <p>These entries are not homework to hand in. They are the raw material for your mid-trip synthesis in Egypt, so the more honestly you capture what you noticed, the more you will have to work with there.</p>
+  <p class="prompt">Track: What did I pay attention to today?</p>
+  <p class="muted">Write down what was actually there, not what you expected or thought should be.</p>
+  <p class="prompt">Trace: Why did my attention go there?</p>
+  <p class="muted">Did I choose it, or did it pull me?</p>
+  <p class="prompt">Trade: What might I have missed because of where my attention went?</p>
+  <p class="muted">A guess is a good answer. Nobody can see exactly what they did not notice.</p>
+  <p class="prompt">Treasure: One moment to keep, and why it mattered.</p>
+
+  <h3>A sample reflection</h3>
+  <p class="muted">Made up, only to show the feel. Yours can be shorter, messier or longer.</p>
+  <div class="sample">
+    <p><span class="k">Track</span>The smell of cardamom, a man restacking oranges into a perfect pyramid, three languages at once. Also my phone, more than I would like.</p>
+    <p><span class="k">Trace</span>The oranges pulled me. I stopped without deciding to. The phone was habit.</p>
+    <p><span class="k">Trade</span>I was scanning for what looked old and "authentic," so I walked past the bread cart. Claire pointed out the vendor's daughter doing the arithmetic in her head. I never saw her.</p>
+    <p><span class="k">Treasure</span>The orange pyramid. Someone took that much care over something that would be sold within the hour.</p>
+  </div>
+
+  <h3>A few more prompts</h3>
+  <p class="muted">If a night feels flat, try one of these as well.</p>
+  <ul class="plain">
+    <li>What did you expect to find today, and what did the place offer instead?</li>
+    <li>Who decided what you were shown today? What might that arrangement leave out?</li>
+    <li>When were you bored, uncomfortable or confused today? What did you do with that feeling?</li>
+    <li>Where was your attention while someone was speaking to you? On them, or on your reply?</li>
+    <li>What did your phone take from the day, and what did it give?</li>
+    <li>What did you notice today that was of no use to you at all? Why did it hold you?</li>
+    <li>What was worth your attention today, and did it get it?</li>
+  </ul>
+</section>
+
+<section>
+  <div class="num">Mid-trip, Egypt</div>
+  <h2>Bring this to your synthesis</h2>
+  <p>Your nightly journaling, starting in Istanbul, is setting the stage for the mid-trip synthesis in Egypt. Think of it as your ledger: by then you will have days of entries showing where your attention went and what it bought. Before the synthesis, skim your journal. You do not need to reread all of it. As you read, notice what repeats and what is missing, then jot a few lines on these.</p>
+  <p class="prompt">What do I keep noticing?</p>
+  <p class="prompt">When was my attention chosen, and when did something pull it?</p>
+  <p class="prompt">What might my attention be skipping? Who could tell me?</p>
+  <p class="prompt">Where did my expectations do my looking for me, and where was I present to what was actually there?</p>
+  <p class="prompt">Where do I want to aim my attention for the rest of the trip?</p>
+</section>
+
+<section>
+  <div class="num">Optional</div>
+  <h2>Reading and watching</h2>
+  <p class="muted">Nothing here is required. Pick one if you want it.</p>
+  <div class="read">
+    <a class="card" href="https://www.ted.com/talks/tristan_harris_the_manipulative_tricks_tech_companies_use_to_capture_your_attention" target="_blank" rel="noopener"><span class="t">How a handful of tech companies control billions of minds every day</span><span class="s">Tristan Harris, TED. How products are designed to capture attention. Which of these pulls follow you onto a trip?</span></a>
+    <a class="card" href="https://www.ted.com/talks/amishi_jha_how_to_tame_your_wandering_mind" target="_blank" rel="noopener"><span class="t">How to tame your wandering mind</span><span class="s">Amishi Jha, TED. The case that attention can be trained. What is one small thing you could try?</span></a>
+    <a class="card" href="https://www.wbur.org/onpoint/2018/08/21/reader-come-home-maryanne-wolf" target="_blank" rel="noopener"><span class="t">Reader, Come Home</span><span class="s">Maryanne Wolf, interview on WBUR On Point. What slow attention does for a brain. What on this trip rewards staying with something slow?</span></a>
+  </div>
+</section>
+
+</main>
+
+<div class="close">
+  <div class="wrap">
+    <div class="num" style="color:var(--brass2)">A calling</div>
+    <h2>Spend it well</h2>
+    <p>Across these days you will notice where your attention goes. It goes to many things: the loud, the new, the frightening, the familiar, whatever happens to be in front of you. None of that is a failing.</p>
+    <p>Attention can also be aimed, and it can be given to what is here, not only to what we expected. It is one of the few things you can give that cannot be given twice. When you give it fully to a person, a place or a purpose, you tell them they matter.</p>
+    <blockquote>
+      <p>"Don't you think maybe they are the same thing? Love and attention?"</p>
+      <footer>Sister Sarah Joan, in <em>Lady Bird</em> (2017, written and directed by Greta Gerwig)</footer>
+    </blockquote>
+    <p class="ponder">Ponder this on your own, in whatever quiet moments the trip gives you.</p>
+    <p class="final">If you spent your attention on what you love, would that be the most meaningful investment you could make?</p>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="sources">
+    <strong>Sources for the numbers</strong>
+    <ul>
+      <li>GWI figures as reported in We Are Social / DataReportal, <a href="https://wearesocial.com/sg/?p=8219">Digital 2025</a>.</li>
+      <li>Gloria Mark, <a href="https://www.universityofcalifornia.edu/news/how-sharpen-your-attention-and-meet-your-goals-2024">University of California newsroom</a>.</li>
+      <li>Alphabet, <a href="https://s206.q4cdn.com/479360582/files/doc_financials/2025/q4/2025q4-alphabet-earnings-release.pdf">Q4 2025 earnings release</a>. Google advertising revenue was $82,284 million for the quarter, which is about $894 million over its 92 days.</li>
+      <li>Meta, <a href="https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm">Form 10-K for 2025</a> and <a href="https://www.afaqs.com/news/digital/meta-revenue-climbs-24-in-q4-as-full-year-takings-cross-200bn-11039757">Q4 2025 results coverage</a>. 2025 revenue was $200.97 billion.</li>
+      <li>Herbert Simon, "Designing Organizations for an Information-Rich World," in Martin Greenberger, ed., <em>Computers, Communications, and the Public Interest</em> (Johns Hopkins Press, 1971).</li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>
